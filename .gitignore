@@ -11,3 +11,5 @@
 !docker-compose.yml
 !src/
 !src/**
+!docs/
+!docs/**
