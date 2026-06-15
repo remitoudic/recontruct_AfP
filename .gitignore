@@ -5,6 +5,13 @@
 !recontruct/
 !recontruct/**
 
-# And also don't ignore these files
+# And also don't ignore these files/folders
 !.gitignore
 !README.md
+!docker-compose.yml
+!backend/
+!backend/**
+!frontend/
+!frontend/**
+!db/
+!db/**
