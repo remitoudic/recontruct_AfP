@@ -9,9 +9,5 @@
 !.gitignore
 !README.md
 !docker-compose.yml
-!backend/
-!backend/**
-!frontend/
-!frontend/**
-!db/
-!db/**
+!src/
+!src/**

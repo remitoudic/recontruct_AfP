@@ -13,11 +13,11 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./src/db/init.sql:/docker-entrypoint-initdb.d/init.sql
 
   backend:
     build:
-      context: ./backend
+      context: ./src/backend
     container_name: afp-backend
     restart: always
     ports:
@@ -29,7 +29,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./src/frontend
     container_name: afp-frontend
     restart: always
     ports:

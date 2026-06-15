@@ -68,6 +68,6 @@ The system maintains a strict, balanced ledger.
 ## 🛠 Development & Code Structure
 
 If you wish to edit the code:
-*   **Database Schema:** Look at `db/init.sql`. This file is only executed the *very first time* the database container starts. If you change it later, you must delete the Docker volume to force a reset.
-*   **Backend Logic:** Found in `backend/app/`. The API endpoints are in `main.py`, database models in `models.py`, and data validation rules in `schemas.py`.
-*   **Frontend UI:** Found in `frontend/`. This is a standard SvelteKit layout.
+*   **Database Schema:** Look at `src/db/init.sql`. This file is only executed the *very first time* the database container starts. If you change it later, you must delete the Docker volume to force a reset.
+*   **Backend Logic:** Found in `src/backend/app/`. The API endpoints are in `main.py`, database models in `models.py`, and data validation rules in `schemas.py`.
+*   **Frontend UI:** Found in `src/frontend/`. This is a standard SvelteKit layout.
