@@ -1,0 +1,10 @@
+# Ignore everything in the directory
+*
+
+# Except for the recontruct folder and its contents
+!recontruct/
+!recontruct/**
+
+# And also don't ignore these files
+!.gitignore
+!README.md
