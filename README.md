@@ -1,6 +1,6 @@
 # AfP (Anwendung für Pfandhäuser) - Modern Web App
 
-Welcome to the modernized version of the AfP Pawnshop software! This application is a complete reconstruction of a legacy Delphi/MySQL 5.0 desktop app, rebuilt as a cloud-native, containerized web application.
+Welcome to the modernized version of the AfP Pawnshop software! This application is a complete reconstruction of a legacy Delphi/MySQL 5.0 desktop app, rebuilt as a cloud-native, containerized web application
 
 ---
 
